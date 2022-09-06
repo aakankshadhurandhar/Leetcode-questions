@@ -5,7 +5,7 @@
 var mySqrt = function(x) {
     if(x==0 || x==1)
         return x
-    var l=1,r=x;
+    var l=1,r=x/2;
     var mid,ans;
     while(l<=r){
         mid=Math.floor(l+((r-l)/2))
